@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.focus-pin-guard" path="/org/gnome/shell/extensions/focus-pin-guard/">
+    <key name="lock-delay" type="u"><default>0</default><summary>Seconds after changing focus before locking (0–120 in 5-second steps)</summary></key>
+    <key name="app-delays" type="s"><default>'{}'</default><summary>JSON map of per-application lock delays in seconds</summary></key>
+    <key name="protected-apps" type="as"><default>[]</default><summary>Permanently protected desktop IDs and WM_CLASS identifiers</summary></key>
+    <key name="pin-salt" type="s"><default>''</default><summary>Random salt for four-digit PIN verifier</summary></key>
+    <key name="pin-hash" type="s"><default>''</default><summary>Iterated PIN verifier; no plaintext PIN stored</summary></key>
+    <key name="running-windows" type="s"><default>'[]'</default><summary>Snapshot of open windows shared with preferences</summary></key>
+    <key name="action-request" type="s"><default>''</default><summary>One-time request to protect a selected running window</summary></key>
+  </schema>
+</schemalist>

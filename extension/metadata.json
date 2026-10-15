@@ -1,0 +1,12 @@
+{
+  "uuid": "focus-pin-guard@gijo-xam.github.io",
+  "name": "Focus PIN Guard",
+  "description": "Protect GNOME application windows with a four-digit PIN. Lock on focus loss immediately or after a configurable 5–120 second delay. Supports GNOME Overview and Dash to Dock context menus.",
+  "shell-version": [
+    "49",
+    "50",
+    "51"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.focus-pin-guard",
+  "url": "https://github.com/Gijo-Xam/focus-pin-guard"
+}

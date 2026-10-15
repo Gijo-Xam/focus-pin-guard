@@ -1,0 +1,11 @@
+.apl-shield { background-color: #101923; }
+.apl-shield-content {
+  background-color: #182b37; border: 1px solid #496173;
+  border-radius: 18px; padding: 26px 34px; spacing: 14px;
+}
+.apl-shield-title { color: #f3f8fb; font-size: 23px; font-weight: bold; }
+.apl-shield-detail { color: #c5d6df; font-size: 13px; }
+.apl-dialog-box { spacing: 12px; padding: 18px 12px; width: 340px; }
+.apl-dialog-title { font-size: 22px; font-weight: bold; }
+.apl-dialog-message { font-size: 13px; color: #cbd5da; }
+.apl-entry { padding: 12px; }

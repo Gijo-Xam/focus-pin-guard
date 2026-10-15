@@ -1,0 +1,4 @@
+dist/
+*.zip
+*.pyc
+node_modules/
